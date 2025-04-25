@@ -118,3 +118,13 @@ p {
     box-shadow: 0 15px 30px black;
     object-fit: contain;
 }
+#button{
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 10px 25px;
+    background-color: rgba(189, 118, 10, 0.736);
+    color: white;
+    border-radius: 5px;
+    tansition: background-color0.3s;
+    transform: translate(700px);
+}
