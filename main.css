@@ -6,7 +6,7 @@ body {
      background-size: cover;*/ 
     /* background-position: center; */
 }
-.image {
+.image{ 
     height: 70vh;
     background-image: url(edit-edit-bab.png); /* Replace with your image path */
     background-size: cover;
@@ -118,13 +118,93 @@ p {
     box-shadow: 0 15px 30px black;
     object-fit: contain;
 }
-#button{
+
+h2{
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 25px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 15px 0 5px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+    font-size: 15px;
+    color: #333;
+}
+
+.button {
     display: inline-block;
     margin: 10px 0 20px;
     padding: 10px 25px;
-    background-color: rgba(189, 118, 10, 0.736);
+    background-color: #cc9900;
     color: white;
+    text-decoration: none;
     border-radius: 5px;
-    tansition: background-color0.3s;
-    transform: translate(700px);
+    transition: background-color 0.3s;
+    transform: translate(75%);
 }
+
+.button:hover {
+    background-color: #b8860b;
+}
+#h2{
+    color: rgb(244, 240, 240);
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    transform: translate(0,500px);
+}
+
+#img1inpa3{
+width: 60%;
+max-width: 600px;
+height: auto;
+border-radius: 8px;
+margin-bottom: 30px;
+transform: translate(520px,500px);
+}
+
+
+#p1inpa3{
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+    max-width: 700px;
+    margin: 0 auto;
+    transform: translate(0,500px);
+ }
