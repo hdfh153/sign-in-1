@@ -182,6 +182,7 @@ h2{
 .button:hover {
     background-color: #b8860b;
 }
+
 #h2{
     color: rgb(244, 240, 240);
     font-size: 28px;
@@ -208,3 +209,25 @@ transform: translate(520px,500px);
     margin: 0 auto;
     transform: translate(0,500px);
  }
+ html{
+    scroll-behavior: smooth;
+ }
+ #imagAbuhowell{
+    idth: 60%;
+max-width: 600px;
+height: auto;
+border-radius: 8px;
+margin-bottom: 30px;
+transform: translate(450px,500px);
+}
+#abuhowellp{
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: justify;
+    max-width: 700px;
+    margin: 0 auto;
+    transform: translate(0,500px);   
+}
+
+
+ 
