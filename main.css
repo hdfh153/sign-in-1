@@ -6,7 +6,7 @@ body {
      background-size: cover;*/ 
     /* background-position: center; */
 }
-.image {
+.image{ 
     height: 70vh;
     background-image: url(edit-edit-bab.png);
     background-size: cover;
@@ -139,12 +139,22 @@ p {
 
   
  }*/ 
- .gallery {
+h2{
+    background-color: #0a0707;
+    color: #fff;
+    padding: 25px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     padding: 40px 20px;
+  
 }
 
 .card {
@@ -176,6 +186,7 @@ p {
 .card p {
     padding: 0 15px 15px;
     font-size: 17px;
+    font-size: 15px;
     color: #333;
 }
 
@@ -194,17 +205,17 @@ p {
 .button:hover {
     background-color: #b8860b;
 }
-
 #processionofmummies{
     width:100%;
-    height: 700px;
+    height:700px;
     background-color: #b8860b;
-    border-radius: 20px;
+    border-radius:20px;
     
 }
 #barademummies{
     font-size: 50px;
     text-align: center;
+    background-color: #0f0f0f;
 
 
 }
@@ -230,6 +241,7 @@ p {
     color: #003366;
     margin-bottom: 20px;
     font-size: 24px;
+    background-color: #fff;
   }
   
   .museum-hours ul {
@@ -241,4 +253,3 @@ p {
     margin-bottom: 10px;
     font-size: 16px;
   }
-  
