@@ -139,14 +139,7 @@ p {
 
   
  }*/ 
-h2{
-    background-color: #0a0707;
-    color: #fff;
-    padding: 25px;
-    margin: 0;
-    font-size: 28px;
-    text-align: center;
-}
+
 
 .gallery {
     display: flex;
@@ -216,6 +209,7 @@ h2{
     font-size: 50px;
     text-align: center;
     background-color: #0f0f0f;
+    color: white;
 
 
 }
@@ -239,6 +233,7 @@ h2{
   
   .museum-hours h2 {
     color: #003366;
+    text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
     background-color: #fff;
