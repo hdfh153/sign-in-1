@@ -194,3 +194,51 @@ p {
 .button:hover {
     background-color: #b8860b;
 }
+
+#processionofmummies{
+    width:100%;
+    height: 700px;
+    background-color: #b8860b;
+    border-radius: 20px;
+    
+}
+#barademummies{
+    font-size: 50px;
+    text-align: center;
+
+
+}
+#prmu{
+    width: 500px;
+    font-size: 20px;
+    top: 20px;
+    transform: translate(60px,-510px);
+    padding: 30px;
+}
+.museum-hours {
+    background-color: #f7f7f7;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-left: 5px solid #b8860b;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+  }
+  
+  .museum-hours h2 {
+    color: #003366;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .museum-hours ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .museum-hours li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
