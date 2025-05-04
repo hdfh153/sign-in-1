@@ -199,9 +199,11 @@ p {
     background-color: #b8860b;
 }
 #processionofmummies{
+    background-position: right;
     width:100%;
     height:700px;
     background-image:url(/Grand-egyptian-museum.jpg);
+    background-repeat: repeat;
     border-radius:20px;
     
 }
