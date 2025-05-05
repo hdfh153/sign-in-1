@@ -274,7 +274,7 @@ p {
     margin-bottom: 10px;
   }
   
-  .contact {
+  #contact {
     width: 60%;
     height: auto;
     background-color: #f1f1f1;
@@ -282,14 +282,17 @@ p {
     border-radius: 10px;
     transform: translate(-120px);
   }
+  html{
+    scroll-behavior: smooth;
+  }
   
-  .contact h2 {
+  #contact h2 {
     text-transform: lowercase;
     font-size: 22px;
     margin-bottom: 10px;
   }
   
-  .contact p {
+  #contact p {
     font-size: 14px;
     margin-bottom: 20px;
   }
